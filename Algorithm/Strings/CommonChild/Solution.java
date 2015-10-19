@@ -24,7 +24,7 @@ Key Point:
 commonchild([x | xs], [x | ys]) = commonchild(xs, ys) + 1;
 commonchild([x | xs], [y | ys]) = max(commonchild(xs, [y|ys]), commonchild([x|xs], ys));
 
-use suffix array to indicate each pair of the results
+use two dimensioinal array to represent substrings
 int[length][length]
  ***/
 
